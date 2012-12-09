@@ -11,7 +11,9 @@ We call a repository that is compatible with homesick to be a 'castle'. To act a
 
 To get started, install homesick first:
 
-    gem install homesick
+	git clone https://github.com/muratayusuke/homesick.git
+    cd homesick/gems
+    gem install homesick.gem
 
 Next, you use the homesick command to clone a castle:
 
