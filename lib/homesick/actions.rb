@@ -17,7 +17,8 @@ class Homesick
         # Fallback to HTTPS
         unless ok
           say_status 'git clone', "#{repo} failed, trying HTTP", :green unless options[:quiet]
-          repo.sub!(/git:\/\//, 'https://')
+          repo.sub!(/:/, '/')
+          repo.sub!(/git@/, 'https://')
           system "git clone -q #{repo} #{destination}" unless options[:pretend]
         end
       else
