@@ -35,7 +35,8 @@ Gem::Specification.new do |s|
     "lib/homesick/shell.rb",
     "spec/homesick_spec.rb",
     "spec/spec.opts",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "yahomesick.gemspec"
   ]
   s.homepage = "http://github.com/muratayusuke/yahomesick"
   s.licenses = ["MIT"]
