@@ -12,7 +12,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   gem.name = "yahomesick"
-  gem.version = "0.1.0"
+  gem.version = "0.1.1"
   gem.summary = %Q{A man's home is his castle. Never leave your dotfiles behind.}
   gem.description = %Q{
     A man's home (directory) is his castle, so don't leave home with out it.
