@@ -11,18 +11,19 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  gem.name = "homesick"
+  gem.name = "yahomesick"
+  gem.version = "0.1.0"
   gem.summary = %Q{A man's home is his castle. Never leave your dotfiles behind.}
   gem.description = %Q{
     A man's home (directory) is his castle, so don't leave home with out it.
 
+    YAHomesick is yet another homesick.
     Homesick is sorta like rip, but for dotfiles. It uses git to clone a repository containing dotfiles, and saves them in ~/.homesick. It then allows you to symlink all the dotfiles into place with a single command. 
 
   }
-  gem.email = "josh@technicalpickles.com"
-  gem.homepage = "http://github.com/technicalpickles/homesick"
-  gem.authors = ["Joshua Nichols"]
-  gem.version = "0.7.0"
+  gem.email = "info@muratayusuke.com"
+  gem.homepage = "http://github.com/muratayusuke/yahomesick"
+  gem.authors = ["Yusuke Murata"]
   gem.license = "MIT"
   # Have dependencies? Add them to Gemfile
 
