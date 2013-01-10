@@ -11,25 +11,23 @@ We call a repository that is compatible with homesick to be a 'castle'. To act a
 
 To get started, install homesick first:
 
-	git clone https://github.com/muratayusuke/homesick.git
-    cd homesick/gems
-    gem install homesick.gem
+    gem install yahomesick
 
 Next, you use the homesick command to clone a castle:
 
-    homesick clone git://github.com/technicalpickles/pickled-vim.git
+    homesick clone git://github.com/muratayusuke/dotfiles.git
 
 Alternatively, if it's on github, there's a slightly shorter way:
 
-    homesick clone technicalpickles/pickled-vim
+    homesick clone muratayusuke/dotfiles
 
 With the castle cloned, you can now link its contents into your home dir:
 
-    homesick symlink pickled-vim
+    homesick symlink dotfiles
 
 If you use the shorthand syntax for GitHub repositories in your clone, please note you will instead need to run:
 
-    homesick symlink technicalpickles/pickled-vim
+    homesick symlink muratayusuke/dotfiles
 
 If you're not sure what castles you have around, you can easily list them:
 
@@ -61,8 +59,12 @@ Not sure what else homesick has up its sleeve? There's always the built in help:
 
 ## Need homesick without the ruby dependency?
 
-Check out [homeshick](https://github.com/andsens/homeshick).
+Check out [yahomeshick](https://github.com/muratayusuke/yahomeshick).
+
+## Homesick
+
+YAHomesick is a fork from [technicalpickles/homesick](https://github.com/technicalpickles/homesick).
 
 ## Copyright
 
-Copyright (c) 2010 Joshua Nichols. See LICENSE for details.
+Copyright (c) Yusuke Murata. See LICENSE for details.
